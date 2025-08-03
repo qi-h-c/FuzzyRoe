@@ -9,11 +9,8 @@
 To address these issues, we propose an enhanced Routing of Experts (RoE) mechanism that integrates fuzzy control theory to enable adaptive and efficient expert selection. Specifically, we design a sparse fuzzy rule base derived from prior knowledge and expert experience, which is interpolated to form a complete rule library on small datasets. This fuzzy logic-based router dynamically generates routing weights based on task complexity, effectively reducing computational cost without compromising model accuracy. Experiments validate that our Fuzzy methods yield 66.9% time and 67.2% data reductions in the Router stage, directly cutting total training time and data by 13.4%. Consistent Adapter/Finetune data with RoE preserves performance stability. Our code is included in the Supplementary Material.
 
 <div  align="center">    
-<img src="img/framework.png" width="90%">
+<img src="img/framework.png" width="80%" height="550px">
 </div>
-
-*In Proceedings of the International Conference on Learning Representations (ICLR) 2025*
-
 
 ## 📌 Overview
 This repository contains:
@@ -96,7 +93,7 @@ This project was made possible thanks to the following open-source projects/reso
 - **[lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)**  
   Our work applies lmms-eval's robust testing framework for model evaluation.
 
-- **[RoE](https://github.com/DoubtedSteam/RoE.git)**
+- **[RoE](https://github.com/DoubtedSteam/RoE.git)**  
   Our work incorporates innovative modifications to RoE's core framework, including structural optimizations and functional extensions to enhance model performance.
 
 
