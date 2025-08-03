@@ -14,7 +14,7 @@ To address these issues, we propose an enhanced Routing of Experts (RoE) mechani
 
 ## 📌 Overview
 This repository contains:
-- ✅ Implementation of Routing Expert
+- ✅ Implementation of Fuzzy Routing Expert
 - ✅ Training/evaluation scripts
 
 ## 🚀 Getting Started
